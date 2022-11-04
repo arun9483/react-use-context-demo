@@ -1,0 +1,35 @@
+.users-list {
+  list-style-type: none;
+  margin-block: 0;
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+.user-details {
+  height: 15px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.title {
+  margin-right: 10px;
+}
+
+.online {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: lightgreen;
+}
+
+.offline {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(255, 60, 0);
+}
